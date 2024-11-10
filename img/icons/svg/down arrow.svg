@@ -1,0 +1,16 @@
+<svg width="9.691406" height="9.691620" viewBox="0 0 9.69141 9.69162" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip266_7829">
+			<rect id="down arrow" rx="0.000000" width="8.819019" height="8.819019" transform="matrix(0.999973 0.00739255 0.00740412 -0.999973 0.400865 10.0213)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="down arrow" rx="0.000000" width="8.819019" height="8.819019" transform="matrix(0.999973 0.00739255 0.00740412 -0.999973 0.400865 10.0213)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip266_7829)">
+		<rect id="Frame 87" rx="0.000000" width="5.211238" height="6.413832" transform="matrix(0.999973 0.00739255 0.00740412 -0.999973 2.21336 8.83214)" fill="#FFFFFF" fill-opacity="0"/>
+		<path id="Vector 618" d="M1.83 5.42L4.81 8.45L7.84 5.46" stroke="#E35454" stroke-opacity="1.000000" stroke-width="1.603458" stroke-linecap="round"/>
+		<path id="Vector 619" d="M4.87 1.23L4.81 8.45" stroke="#E35454" stroke-opacity="1.000000" stroke-width="1.603458" stroke-linecap="round"/>
+	</g>
+</svg>
