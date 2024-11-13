@@ -1,23 +1,24 @@
 :root {
-    --primary-font: 'Inter', sans-serif;
-    /* Text colors */
-    --main-txt-cl: rgb(126, 132, 146);
-    --main-iteam-cl: rgb(29, 30, 37);
-    
+  --primary-font: 'Inter', sans-serif;
+  /* Text colors */
+  --main-txt-cl: rgb(126, 132, 146);
+  --black-txt-cl: rgb(29, 30, 37);
+  --white-txt-cl: rgb(255, 255, 255);
+
 
 }
 
 /* Base styles */
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--primary-font);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.4;
-    color: var(--main-txt-cl);
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--main-txt-cl);
 }
 
 /* Reset Start */
@@ -28,48 +29,48 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
-    color: currentColor;
-    text-decoration: none
+  color: currentColor;
+  text-decoration: none
 }
 
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 button {
-    font-family: inherit;
-    color: currentColor;
-    cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
 }
 
 li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 
 /* Reset End */
 .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  min-width: 320px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 
-    Outline: 2px solid red;
-    Outline-offset: -2px;
+  Outline: 2px solid red;
+  Outline-offset: -2px;
 }
 
 /* @media only screen and (min-width: 376px) and (max-width: 1439px) {
@@ -97,23 +98,24 @@ li:last-child {
   |============================
 */
 
-.header {
-}
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {}
 
-    padding: 20px 24px 32px;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 24px 32px;
 }
-.container {
-}
-.header-link {
-}
-.header-svg {
-}
-.header-nav {
-}
+
+.container {}
+
+.header-link {}
+
+.header-svg {}
+
+.header-nav {}
+
 @media only screen and (max-width: 375px) {
   .header-nav {
     display: none;
@@ -121,13 +123,257 @@ li:last-child {
 }
 
 .header-list {
-    display: flex;
+  display: flex;
 }
-.header-iteam {
+
+.header-iteam {}
+
+.link {}
+
+.header-contact {}
+
+.header-menu-svg {}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+
+.hero {}
+
+.hero-container {
+  padding-bottom: 56px;
 }
-.link {
+
+.container {}
+
+.hero-title {}
+
+.title {
+  margin-bottom: 48px;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -1px;
+  color: var(--black-txt-cl);
 }
-.header-contact {
+
+.hero-subject {}
+
+.subject {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--black-txt-cl);
+
+  margin-left: 32px;
+  margin-bottom: 40px;
 }
-.header-menu-svg {
+
+.hero-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+
+.hero-label-input {
+  width: 219px;
+
+  border: none;
+  border-bottom: 1px solid var(--main-txt-cl);
+
+  color: var(--main-txt-cl);
+}
+
+.hero-btn {
+  width: 108px;
+  height: 36px;
+
+  border: none;
+  border-radius: 100px;
+  background-color: var(--black-txt-cl);
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: var(--white-txt-cl);
+}
+
+.hero-box-diagram {
+  display: none;
+}
+
+.hero-subtitle {}
+
+.hero-desc {}
+
+.hero-marketbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+  width: 335px;
+  height: 96px;
+
+  border-radius: 6px;
+  box-shadow: 16.03px 32.07px 64.14px 0px rgba(45, 51, 81, 0.12);
+  background: rgb(0, 0, 0);
+}
+
+.hero-market-container {}
+
+.hero-market-title {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 2px;
+
+  color: rgb(92, 97, 111);
+}
+
+.hero-market-price {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 7px;
+
+  color: var(--white-txt-cl);
+}
+
+.hero-market-box {
+  display: flex;
+  align-items: center;
+}
+
+.hero-up-svg {
+  margin-right: 3px;
+  stroke: rgb(96, 211, 156);
+}
+
+.hero-down-svg {
+  stroke: rgb(227, 84, 84);
+}
+
+.hero-market-sales {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.5;
+
+  margin-right: 5px;
+}
+
+.hero-market-txt {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.4px;
+}
+
+.overveiw-box p:last-child {
+  margin-bottom: 0;
+}
+
+/**
+  |============================
+  | Overveiw styles
+  |============================
+*/
+
+.overveiw-container {
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  background-color: var(--black-txt-cl);
+}
+
+.container {}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+
+  margin-bottom: 16px;
+
+  color: var(--white-txt-cl);
+}
+
+.overveiw-desc {
+  margin-bottom: 32px;
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.overveiw-svg {
+  stroke: var(--white-txt-cl);
+  margin-bottom: 19px;
+}
+
+.overveiw-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 16px;
+
+  color: var(--white-txt-cl);
+}
+
+.overveiw-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+
+  margin-bottom: 24px;
+}
+
+/**
+  |============================
+  | Features styles
+  |============================
+*/
+
+.features-container {
+  padding-top: 56px;
+  padding-bottom: 30px;
+}
+
+.container {}
+
+.features-img {
+  margin-bottom: 32px;
+}
+
+.features-title {
+  color: var(--black-txt-cl);
+}
+
+.features-desc {
+  margin-bottom: 24px;
+}
+
+.desc {}
+
+.features-list {}
+
+.features-iteam {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 16px;
+}
+
+.features-svg {
+  fill: var(--white-txt-cl);
+  stroke: rgb(70, 178, 119);
+}
+
+.features-txt {
+  color: var(--black-txt-cl);
 }

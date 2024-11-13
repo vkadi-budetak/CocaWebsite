@@ -62,8 +62,8 @@
                     building products that will help you run your business better.
                 </h3>
                 <label class="hero-label">
-                    <input class="hero-label-innput" type="email" name="email" value="Enter your email" required />
-                    <button class="hero-btn">Try for free</button>
+                    <input class="hero-label-input" type="email" name="email" value="Enter your email" required />
+                    <button class="hero-btn" type="submit">Try for free</button>
                 </label>
                 <div class="hero-box-diagram">
                     <p class="hero-subtitle">Sales Report</p>
@@ -71,23 +71,27 @@
                     <p class="hero-desc">Competitor</p>
                 </div>
                 <div class="hero-marketbox">
-                    <div class="">
-                        <p class="">Sales</p>
-                        <p class="">$31,092</p>
-                        <svg class="" width="10" height="10">
-                            <use href="./img/icons/icons.svg#icon-up-arrow"></use>
-                        </svg>
-                        <p class="">4.2%</p>
-                        <p class="">from last year</p>
+                    <div class="hero-market-container">
+                        <p class="hero-market-title">Sales</p>
+                        <p class="hero-market-price">$31,092</p>
+                        <div class="hero-market-box">
+                            <svg class="hero-up-svg" width="10" height="10">
+                                <use href="./img/icons/icons.svg#icon-up-arrow"></use>
+                            </svg>
+                            <p class="hero-market-sales">4.2%</p>
+                            <p class="hero-market-txt">from last year</p>
+                        </div>
                     </div>
-                    <div>
-                        <p class="">Marketing</p>
-                        <p class="">$29,128</p>
-                        <svg class="" width="10" height="10">
-                            <use href="./img/icons/icons.svg#icon-down-arrow"></use>
-                        </svg>
-                        <p class="">1.2%</p>
-                        <p class="">from last year</p>
+                    <div class="hero-market-container">
+                        <p class="hero-market-title">Marketing</p>
+                        <p class="hero-market-price">$29,128</p>
+                        <div class="hero-market-box">
+                            <svg class="hero-down-svg" width="10" height="10">
+                                <use href="./img/icons/icons.svg#icon-down-arrow"></use>
+                            </svg>
+                            <p class="hero-market-sales">1.2%</p>
+                            <p class="hero-market-txt">from last year</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,55 +99,55 @@
 
         <!-- Overveiw section -->
         <section>
-            <div class="container">
-                <h2>
+            <div class="overveiw-container container">
+                <h2 class="heading">
                     Sans help our client solve complex customer problems with date that
                     does more.
                 </h2>
-                <p>
+                <p class="overveiw-desc desc">
                     Our platform offers the modern enterprise full control of how date
                     can be access and used with industry leading software solutions for
                     identity, activation, and date collaboration
                 </p>
                 <div>
-                    <svg class="" width="24" height="24">
+                    <svg class="overveiw-svg" width="24" height="24">
                         <use href="./img/icons/icons.svg#icon-Icon"></use>
                     </svg>
-                    <p>Build your date fundamental</p>
-                    <p>
+                    <p class="overveiw-subtitle">Build your date fundamental</p>
+                    <p class="overveiw-text">
                         Build access to date, develop valuable business insights and drive
                         revenue while maintaining full control over access and use of date
                         at all times.
                     </p>
                 </div>
                 <div>
-                    <svg class="" width="24" height="24">
+                    <svg class="overveiw-svg" width="24" height="24">
                         <use href="./img/icons/icons.svg#icon-Icon-1"></use>
                     </svg>
-                    <p>Measure more effective</p>
-                    <p>
+                    <p class="overveiw-subtitle">Measure more effective</p>
+                    <p class="overveiw-text">
                         Effectively measure people-based campaigns with the freedom to
                         choose from best-of breed partners to optimize and drive media
                         innovation.
                     </p>
                 </div>
                 <div>
-                    <svg class="" width="24" height="24">
+                    <svg class="overveiw-svg" width="24" height="24">
                         <use href="./img/icons/icons.svg#icon-Icon-2"></use>
                     </svg>
-                    <p>Activate your date</p>
-                    <p>
+                    <p class="overveiw-subtitle">Activate your date</p>
+                    <p class="overveiw-text">
                         Accurately address your specific audiences at scale across any
                         channel, platform, publisher or network and safely translate date
                         between identity space to improve results.
                     </p>
                 </div>
-                <div>
-                    <svg class="" width="24" height="24">
+                <div class="overveiw-box">
+                    <svg class="overveiw-svg" width="24" height="24">
                         <use href="./img/icons/icons.svg#icon-Icon-3"></use>
                     </svg>
-                    <p>Strengthen consumer privacy</p>
-                    <p>
+                    <p class="overveiw-subtitle">Strengthen consumer privacy</p>
+                    <p class="overveiw-text">
                         Protect your customer date with leading privacy-preserving
                         technologies and advanced techniques to minimize date movement
                         while still enabling insight generation.
@@ -154,54 +158,55 @@
 
         <!-- Features section -->
         <section>
-            <div class="container">
-                <img srcset="
-              ./img/Features/img1_335.jpeg   335w,
-              ./img/Features/img1_585.jpeg   585w,
-              ./img/Features/img1_670.jpeg   670w,
+            <div class="features-container container">
+                <img class="features-img" srcset="
+              ./img/Features/img1_335.jpeg 335w,
+              ./img/Features/img1_585.jpeg 585w,
+              ./img/Features/img1_670.jpeg 670w,
               ./img/Features/img1_1170.jpeg 1170w
             " sizes="(min-width: 1230px) 585px, (min-width: 375px) 335px, 100vw" src="./img/Features/Features.jpeg"
                     alt="office" width="585" height="651" loading="lazy" />
-                <h2>Passion to increase company revenue up to 85%</h2>
-                <p>
+                <h2 class="features-title heading">Passion to increase &nbsp; company revenue up to 85%</h2>
+                <p class="features-desc desc">
                     Automate your sales, marketing and service in one platform. Avoid
                     date leaks and enable consistent messaging
                 </p>
-                <ul class="list">
-                    <li>
-                        <svg class="" width="24" height="24">
+                <ul class="features-list list">
+                    <li class="features-iteam">
+                        <svg class="features-svg" width="24" height="24">
                             <use href="./img/icons/icons.svg#icon-Icon-4"></use>
                         </svg>
-                        <p>Close more deals with single - page contact managment</p>
+                        <p class="features-txt desc">Close more deals with single - page contact managment</p>
                     </li>
-                    <li>
-                        <svg class="" width="24" height="24">
+                    <li class="features-iteam">
+                        <svg class="features-svg" width="24" height="24">
                             <use href="./img/icons/icons.svg#icon-Icon-4"></use>
                         </svg>
-                        <p>
+                        <p class="features-txt desc">
                             Enjoy one-click calling, call scripts and voicemail automation
                         </p>
                     </li>
-                    <li>
-                        <svg class="" width="24" height="24">
+                    <li class="features-iteam">
+                        <svg class="features-svg" width="24" height="24">
                             <use href="./img/icons/icons.svg#icon-Icon-4"></use>
                         </svg>
-                        <p>
+                        <p class="features-txt desc">
                             Take stages and milestones of your deals to keep the sales
                             process an track
                         </p>
                     </li>
                 </ul>
+
             </div>
         </section>
 
         <!-- Content section -->
         <section>
-            <div class="container">
-                <div>
-                    <div>
-                        <h1>17k</h1>
-                        <p>happy customers on worldwide</p>
+            <div class="content-container container">
+                <div class="content-box">
+                    <div class="content-frame">
+                        <h1 class="content-title title">17k</h1>
+                        <p class="">happy customers on worldwide</p>
                         <h1>50+</h1>
                         <p>Creativity & passionate members</p>
                     </div>
@@ -213,8 +218,8 @@
                     </div>
                 </div>
                 <img srcset="
-              /img/Content/img1x_335.jpeg   335w,
-              /img/Content/img1x_670.jpeg   670w,
+              /img/Content/img1x_335.jpeg 335w,
+              /img/Content/img1x_670.jpeg 670w,
               /img/Content/img1x_1200.jpeg 1200w,
               /img/Content/img1x_2400.jpeg 2400w
             " sizes="(min-width: 1230px) 1200px, (min-width: 375px) 335px, 100vw" src="./img/Content/Content.jpeg"
