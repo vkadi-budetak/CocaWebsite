@@ -5,6 +5,11 @@
   --black-txt-cl: rgb(29, 30, 37);
   --white-txt-cl: rgb(255, 255, 255);
 
+  /* Others */
+  --svg-idx: 10;
+  --fon-idx: 100;
+
+
 
 }
 
@@ -438,46 +443,51 @@ li:last-child {
 .partners-container {
   margin-bottom: 56px;
 }
-.container {
-}
+
+.container {}
+
 .partners-box {
   width: 264px;
 
 }
+
 .partners-title {
   font-weight: 700;
   margin-bottom: 8px;
 
   color: var(--black-txt-cl);
 }
-.heading {
-}
+
+.heading {}
+
 .partners-desc {
   margin-bottom: 32px;
 }
-.desc {
-}
+
+.desc {}
+
 .partners-list {
   display: flex;
   flex-wrap: wrap;
-    gap: 16px 14px;
+  gap: 16px 14px;
 }
-.list {
-}
+
+.list {}
+
 .partners-iteam {
   width: 125px;
   height: 70px;
 
   text-align: center;
-    display: flex;
+  display: flex;
 
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.partners-link {
-}
-.partners-svg {
-}
+
+.partners-link {}
+
+.partners-svg {}
 
 /**
   |============================
@@ -486,54 +496,215 @@ li:last-child {
 */
 
 .services-container {
-}
-.container {
+  margin-bottom: 56px;
 }
 
+.container {}
+
 .service-title-desctop {
-display: none;
-color: var(--black-txt-cl);
+  display: none;
+  color: var(--black-txt-cl);
 }
+
 .service-title-mob {
   margin-bottom: 16px;
 
   color: var(--black-txt-cl);
 }
-.heading {
-}
+
+.heading {}
+
 .service-desc {
   margin-bottom: 32px;
 }
-.desc {
-}
-.service-list {
-}
-.list {
-}
-.services-box-img{
 
-}
-.services-box-svg {
+.desc {}
 
-}
+.service-list {}
+
+.list {}
+
+.services-box-img {}
+
+.services-box-svg {}
+
 .services-iteam {
+  margin-bottom: 24px;
 }
+
 .services-box {
+  position: relative;
   display: flex;
   gap: 16px;
+}
 
+.services-svg-box {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(22, 26, 52, 0.6);
+  top: 12px;
+  left: 108px;
 }
+
 .services-svg {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+
+  stroke: rgba(22, 26, 52, 0.6);
+  fill: var(--white-txt-cl);
+  border-radius: 50%;
 }
+
 .services-img {
   width: 160px;
 }
-.services-box-right {
+
+.services-box-right {}
+
+.services-subject {
+  margin-bottom: 8px;
+}
+
+.subject {}
+
+.services-desc {
+  font-weight: 400;
+}
+
+/**
+  |============================
+  | Trending styled
+  |============================
+*/
+
+.trending-container {}
+
+.container {}
+
+.trending-title {
+  margin-bottom: 16px;
+  color: var(--black-txt-cl);
+}
+
+.heading {}
+
+.trending-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  margin-bottom: 32px;
+}
+
+.desc {}
+
+.trending-box {
+  display: flex;
+  /* gap: 16px; */
+
+  /* position: relative; */
+}
+
+.trending-box-content {
+  margin-right: 16px;
+}
+
+
+.trending-img {
+  width: 300px;
+  height: 191px;
+
+  margin-bottom: 8px;
+}
+
+.trending-box-txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 8px;
+}
+
+.trending-headline-left {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+
+  margin-right: 22px;
+}
+
+.trending-headline-right {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.trending-subject {
+  width: 300px;
+
+  margin-bottom: 39px;
+}
+
+.subject {}
+
+.trending-box-svg {
+  position: relative;
+}
+
+.trending-svg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 76px;
+  left: 289px;
+
+  border-radius: 50%;
+  background-color: var(--white-txt-cl);
+  fill: var(--white-txt-cl);
+  stroke: rgb(126, 132, 146);
 
 }
-.services-subject {
+
+/**
+  |============================
+  | Testimonials styles
+  |============================
+*/
+
+.testimonials-container {
 }
-.subject {
+.container {
 }
-.services-desc {
+.testimonials-title {
+}
+.heading {
+}
+.testimonials-desc {
+}
+.desc {
+}
+.testimonials-box {
+}
+.testimonials-box-svg {
+}
+.testimonials-svg {
+}
+.testimonials-box-txt {
+}
+.testimonials-box-cart {
+}
+.testimonials-box-img {
+}
+.testimonials-box-user {
+}
+.testimonials-user-name {
+}
+.testimonials-user-position {
+}
+.testimonials-svg-left {
+}
+.testimonials-svg-right {
 }

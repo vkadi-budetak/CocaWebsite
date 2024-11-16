@@ -336,7 +336,7 @@
                   " sizes="(min-width: 1230px) 240px, (min-width: 375px) 160px, 100vw"
                                 src="./img/Services/service1.jpeg" alt="photo content" width="240" height="273"
                                 loading="lazy" />
-                            <div class="services-box-svg">
+                            <div class="services-svg-box">
                                 <svg class="services-svg" width="24" height="24">
                                     <use href="./img/icons/icons.svg#icon-benefit_1"></use>
                                 </svg>
@@ -361,7 +361,7 @@
                   " sizes="(min-width: 1230px) 240px, (min-width: 375px) 160px, 100vw"
                                 src="./img/Services/service2.jpeg" alt="photo content" width="240" height="273"
                                 loading="lazy" />
-                            <div class="services-box-svg">
+                            <div class="services-svg-box">
                                 <svg class="services-svg" width="24" height="24">
                                     <use href="./img/icons/icons.svg#icon-benefit_2"></use>
                                 </svg>
@@ -386,7 +386,7 @@
                   " sizes="(min-width: 1230px) 240px, (min-width: 375px) 160px, 100vw"
                                 src="./img/Services/service3.jpeg" alt="photo content" width="240" height="273"
                                 loading="lazy" />
-                            <div class="services-box-svg">
+                            <div class="services-svg-box">
                                 <svg class="services-svg" width="24" height="24">
                                     <use href="./img/icons/icons.svg#icon-benefit_3"></use>
                                 </svg>
@@ -402,7 +402,6 @@
                         </div>
                     </li>
                     <li class="services-iteam">
-
                         <div class="services-box">
                             <img class="services-img" srcset="
                     ./img/Services/img4_160.jpeg 160w,
@@ -412,7 +411,7 @@
                   " sizes="(min-width: 1230px) 240px, (min-width: 375px) 160px, 100vw"
                                 src="./img/Services/service4.jpeg" alt="photo content" width="240" height="273"
                                 loading="lazy" />
-                            <div class="services-box-svg">
+                            <div class="services-svg-box">
                                 <svg class="services-svg" width="24" height="24">
                                     <use href="./img/icons/icons.svg#icon-benefit_4"></use>
                                 </svg>
@@ -433,89 +432,97 @@
 
         <!-- Trending news section -->
         <section>
-            <div class="container">
-                <h2>Trending news from Coca</h2>
-                <p>we have some new Service to pamper you</p>
-                <div>
-                    <img srcset="
-                ./img/Trending/img1_299.jpeg   299w,
-                ./img/Trending/img1_582.jpeg   582w,
-                ./img/Trending/img1_598.jpeg   598w,
-                ./img/Trending/img1_1164.jpeg 1164w
-              " sizes="(min-width: 1230px) 582px, (min-width: 375px) 299px, 100vw" src="./img/Trending/Trending1.jpeg"
-                        alt="trending news" width="582" height="332" loading="lazy" />
-                    <p>Published in Insight Jan 30, 2021</p>
-                    <p>by : Albert Sans</p>
-                    <h3>
-                        What makes an authentic employee profile, and why does it matter ?
-                    </h3>
-                </div>
-                <svg class="" width="24" height="24">
-                    <use href="./img/icons/icons.svg#icon-trending_icon"></use>
-                </svg>
-                <div>
-                    <img srcset="
-                ./img/Trending/img2_299.jpeg   299w,
-                ./img/Trending/img2_582.jpeg   582w,
-                ./img/Trending/img2_598.jpeg   598w,
-                ./img/Trending/img2_1164.jpeg 1164w
-              " sizes="(min-width: 1230px) 582px, (min-width: 375px) 299px, 100vw" src="./img/Trending/Trending2.jpeg"
-                        alt="trending news" width="582" height="332" loading="lazy" />
-                    <p>Published in Insight Jan 30, 2021</p>
-                    <p>by : Albert Sans</p>
-                    <h3>How to build a Kaylen relationship with a good company</h3>
+            <div class="trending-container container">
+                <h2 class="trending-title heading">Trending news from Coca</h2>
+                <p class="trending-desc desc">we have some new Service to pamper you</p>
+                <div class="trending-box">
+                    <div class="trending-box-svg">
+                        <svg class="trending-svg" width="24" height="24">
+                            <use href="./img/icons/icons.svg#icon-trending_icon"></use>
+                        </svg>
+                    </div>
+                    <div class="trending-box-content">
+                        <img class="trending-img" srcset="
+                    ./img/Trending/img1_299.jpeg   299w,
+                    ./img/Trending/img1_582.jpeg   582w,
+                    ./img/Trending/img1_598.jpeg   598w,
+                    ./img/Trending/img1_1164.jpeg 1164w
+                                  " sizes="(min-width: 1230px) 582px, (min-width: 375px) 299px, 100vw" src="./img/Trending/Trending1.jpeg"
+                            alt="trending news" width="582" height="332" loading="lazy" />
+                        <div class="trending-box-txt">
+                            <p class="trending-headline-left desc">Published in Insight Jan 30, 2021</p>
+                            <p class="trending-headline-right desc">by : Albert Sans</p>
+                        </div>
+                        <h3 class="trending-subject subject">
+                            What makes an authentic employee profile, and why does it matter ?
+                        </h3>
+                    </div>
+                    <div class="trending-box-content">
+                        <img class="trending-img" srcset="
+                    ./img/Trending/img2_299.jpeg   299w,
+                    ./img/Trending/img2_582.jpeg   582w,
+                    ./img/Trending/img2_598.jpeg   598w,
+                    ./img/Trending/img2_1164.jpeg 1164w
+                                  " sizes="(min-width: 1230px) 582px, (min-width: 375px) 299px, 100vw" src="./img/Trending/Trending2.jpeg"
+                            alt="trending news" width="582" height="332" loading="lazy" />
+                        <div class="trending-box-txt">
+                            <p class="trending-headline-left desc">Published in Insight Jan 30, 2021</p>
+                            <p class="trending-headline-right desc">by : Albert Sans</p>
+                        </div>
+                        <h3 class="trending-subject subject">How to build a Kaylen relationship with a good company</h3>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Testimonials section -->
         <section>
-            <div class="container">
-                <h2>What our customer are saying</h2>
-                <p>
+            <div class="testimonials-container container">
+                <h2 class="testimonials-title heading">What our customer are saying</h2>
+                <p class="testimonials-desc desc">
                     We are trusted numerous companies from different business to meet
                     their needs
                 </p>
-                <div>
-                    <div class="">
-                        <svg class="" width="16" height="16">
+                <div class="testimonials-box">
+                    <div class="testimonials-box-svg">
+                        <svg class="testimonials-svg" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-Star"></use>
                         </svg>
-                        <svg class="" width="16" height="16">
+                        <svg class="testimonials-svg" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-Star"></use>
                         </svg>
-                        <svg class="" width="16" height="16">
+                        <svg class="testimonials-svg" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-Star"></use>
                         </svg>
-                        <svg class="" width="16" height="16">
+                        <svg class="testimonials-svg" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-Star"></use>
                         </svg>
-                        <svg class="" width="16" height="16">
+                        <svg class="testimonials-svg" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-Star"></use>
                         </svg>
-                        <p>5.0</p>
+                        <p class="testimonials-box-txt">5.0</p>
                     </div>
-                    <p>
+                    <p class="testimonials-desc desc">
                         “With Agency the results are very satisfying. wrapped with Hight
                         quality and innovative design that makes a surge of visitors on my
                         website”
                     </p>
-                    <div>
-                        <img srcset="
+                    <div class="testimonials-box-cart">
+                        <img class="testimonials-box-img" srcset="
                   ./img/Testimonials/img1_40.jpeg   40w,
                   ./img/Testimonials/img1_56.jpeg   56w,
                   ./img/Testimonials/img1_80.jpeg   80w,
                   ./img/Testimonials/img1_112.jpeg 112w
                 " sizes="(min-width: 1230px) 56px, (min-width: 375px) 40px, 100vw"
                             src="./img/Testimonials/Testimonials.jpeg" alt="photo content" width="56" height="56" />
-                        <div>
-                            <p>Renee Wells</p>
-                            <p>Product Designer, Quotient</p>
+                        <div class="testimonials-box-user">
+                            <p class="testimonials-user-name desc">Renee Wells</p>
+                            <p class="testimonials-user-position desc">Product Designer, Quotient</p>
                         </div>
-                        <svg class="" width="16" height="16">
+                        <svg class="testimonials-svg-left" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-left-arrow"></use>
                         </svg>
-                        <svg class="" width="16" height="16">
+                        <svg class="testimonials-svg-right" width="16" height="16">
                             <use href="./img/icons/icons.svg#icon-right-arrow"></use>
                         </svg>
                     </div>
