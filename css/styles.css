@@ -729,7 +729,7 @@ li:last-child {
 
 .testimonials-box-cart {
   display: flex;
-
+  align-items: center;
   padding-bottom: 80px;
 }
 
@@ -757,6 +757,31 @@ li:last-child {
   margin-right: 31px;
 }
 
+.testimonials-svg-left-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgb(206, 209, 216);
+  border-radius: 100px;
+}
+
 .testimonials-svg-left {}
 
-.testimonials-svg-right {}
+.testimonials-svg-right-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  background-color: var(--black-txt-cl);
+}
+
+.testimonials-svg-right {
+  fill: white;
+}
