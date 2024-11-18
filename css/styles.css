@@ -88,14 +88,14 @@ li:last-child {
   }
 } */
 
-/* @media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .container {
     max-width: 1230px;
 
     Outline: 2px solid red;
     Outline-offset: -2px;
   }
-} */
+}
 
 
 /**
@@ -710,6 +710,12 @@ li:last-child {
   margin-bottom: 13px;
 }
 
+.testimonials-sign {
+  fill: rgb(237, 237, 237);
+  stroke: rgb(0, 0, 0);
+  border: 0.28px solid rgb(0, 0, 0);
+}
+
 .testimonials-svg {}
 
 .testimonials-box-txt {
@@ -784,4 +790,133 @@ li:last-child {
 
 .testimonials-svg-right {
   fill: white;
+}
+
+/**
+  |============================
+  | Footer styled
+  |============================
+*/
+
+.footer-container {}
+
+.container {}
+
+.footer-title {
+  padding-top: 51px;
+  margin-bottom: 24px;
+
+  color: var(--black-txt-cl);
+}
+
+.footer-subject {
+  margin-left: 43px;
+  margin-bottom: 24px;
+}
+
+.footer-btn {
+  width: 142px;
+  height: 44px;
+  border-radius: 100px;
+
+  margin-bottom: 56px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--white-txt-cl);
+  background-color: var(--black-txt-cl);
+}
+
+.footer-box-info {
+  display: flex;
+}
+
+.footer-list-svg {
+  margin-right: 144px;
+}
+
+.footer-list {}
+
+.footer-svg {
+  width: 95px;
+  height: 44px;
+
+  margin-bottom: 9px;
+
+}
+
+.footer-desc {
+  width: 248px;
+
+  margin-bottom: 96px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-desc {
+    color: var(--black-txt-cl);
+  }
+}
+
+.desc {}
+
+.footer-box-categories {
+  display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-box-categories {
+    display: flex;
+    gap: 93px;
+  }
+}
+
+.footer-box-content {}
+
+.footer-box-list {}
+
+.footer-box-iteam {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: var(--black-txt-cl);
+}
+
+.footer-box-iteam:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+
+  margin-bottom: 24px;
+}
+
+.footer-box-social {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 24px;
+}
+
+.footer-social-iteam {}
+
+.footer-social-link {}
+
+.footer-social-svg {}
+
+.footer-info {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-info-desc {
+  text-align: center;
+
+  padding-bottom: 30px;
 }
