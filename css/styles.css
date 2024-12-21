@@ -176,6 +176,7 @@ li:last-child {
   position: absolute;
   filter: blur(80px);
   background-color: rgba(226, 248, 240, 0.8);
+  /* opacity: 0.8; */
   width: 197px;
   height: 197px;
   left: 277px;
@@ -853,7 +854,19 @@ li:last-child {
 
 .footer-container {}
 
-.container {}
+.footer-container::before {
+  content: '';
+  display: block;
+  width: 221px;
+  height: 221px;
+  position: absolute;
+  /* left: -31px;
+  top: -26px; */
+  filter: blur(120px);
+  background-color: rgb(250, 117, 21);
+  opacity: 0.13;
+
+}
 
 .footer-title {
   padding-top: 51px;
