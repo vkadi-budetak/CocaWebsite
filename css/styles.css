@@ -64,6 +64,10 @@ li:last-child {
   margin-bottom: 0;
 }
 
+.page-box {
+  overflow: hidden;
+}
+
 
 /* Reset End */
 .container {
