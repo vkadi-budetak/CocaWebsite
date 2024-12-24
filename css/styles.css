@@ -76,8 +76,8 @@ li:last-child {
   padding-left: 20px;
   padding-right: 20px;
 
-  /* Outline: 2px solid red;
-  Outline-offset: -2px; */
+  Outline: 2px solid red;
+  Outline-offset: -2px;
 }
 
 
@@ -461,8 +461,8 @@ li:last-child {
   height: 0;
   border: 1px solid rgb(206, 209, 216);
   transform: rotate(90deg);
-  position: absolute;
-  left: 640px;
+  /* position: absolute;
+  left: 640px; */
 }
 
 /* .content-box-container::after {
