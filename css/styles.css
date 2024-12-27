@@ -76,8 +76,8 @@ li:last-child {
   padding-left: 20px;
   padding-right: 20px;
 
-  Outline: 2px solid red;
-  Outline-offset: -2px;
+  /* Outline: 2px solid red;
+  Outline-offset: -2px; */
 }
 
 
@@ -455,16 +455,14 @@ li:last-child {
   align-items: center;
 }
 
-.content-box-container:nth-child(n+1)::after {
+/* .content-box-container:nth-child(n+1)::after {
   content: '';
   display: block;
   width: 64px;
   height: 0;
   border: 1px solid rgb(206, 209, 216);
   transform: rotate(90deg);
-  /* position: absolute;
-  left: 640px; */
-}
+} */
 
 .content-frame {}
 
